@@ -35,3 +35,12 @@ npm install babel-cli babel-preset-es2015
 ```
 
 然后`server`目录下就可以使用`es6`的语法了。
+
+在`nuxt.config.js`里面可以去添加一些配置:
+```js
+css: [
+    'element-ui/lib/theme-chalk/index.css',
+    'element-ui/lib/theme-chalk/reset.css',
+    '~assets/css/main.css'
+  ],
+```
